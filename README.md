@@ -2,6 +2,7 @@
 
 **Diabetes Diagnosis**
 
+
 **Daftar Anggota**
   - 71210678 Setya Kristendy Cianjur <br />
   - 71210693 Dhea Angelina <br />
@@ -10,20 +11,19 @@
 **Penjelasan singkat**
 <br /> Aplikasi Artificial Intelligence (AI) yang kami buat adalah Diabetes Diagnosis. Aplikasi tersebut menggunakan data sekunder dari Kaggle. Eksplorasi data kami visualisasikan dalam bentuk Violin Plot dan Scatter Plot. Selanjutnya, aplikasi diimplementasikan menggunakan Model Klasifikasi dengan algoritma Logistic Regression. Model yang sudah jadi kami evaluasi menggunakan Confusion Matrix. 
 
-**Eksplorasi Data**
+**Eksplorasi Data** <br />
 8 Parameter/Feature - Input berupa numerik
-  - Pregnancies = Jumlah Kehamilan <br />
-  - Glucose = Glukosa <br />
-  - Blood Pressure = Tekanan Darah <br />
-  - Skin Thickness = Ketebalan Kulit <br />
-  - Insulin <br />
-  - Body Mass Index = Indeks Massa Tubuh (Indikator Tinggi Badan dan Berat badan Ideal) <br />
-  - Diabetes Pedigree Function = Riwayat Penyakit Diabetes <br />
+  - Pregnancies = Jumlah Kehamilan
+  - Glucose = Glukosa
+  - Blood Pressure = Tekanan Darah
+  - Skin Thickness = Ketebalan Kulit
+  - Insulin
+  - Body Mass Index = Indeks Massa Tubuh (Indikator Tinggi Badan dan Berat badan Ideal)
+  - Diabetes Pedigree Function = Riwayat Penyakit Diabetes
   - Age = Usia
 
-1 Target - Output berupa numerik
-  Outcome (Berupa 0 atau 1)
-  0 adalah Tidak Diabetes dan 1 adalah Diabetes
+1 Target - Output berupa numerik <br />
+  Outcome (Berupa 0 atau 1) = 0 adalah Tidak Diabetes dan 1 adalah Diabetes
   
 **Modelling**
 *Logistic Regression* <br />
@@ -34,7 +34,7 @@ Dengan algoritma tersebut dihasilkan:
 - F1 Score = mengukur rata-rata antara presisi dan recall = 0.803
 - Precision = mengukur mana identifikasi positif benar atau belum = 0.752
 
-*Confusion Matrix*
+*Confusion Matrix* <br />
 Model evaluasi ini memberikan gambaran tentang jumlah diagnosis yang benar dan salah. Confusion Matrix mencakup empat metrik evaluasi utama, yaitu:
 - True Positive (TP) = actual 1, predicted 1 = diabetes dan didiagnosis diabetes = 34
 - True Negative (TN) = actual 0, predicted 0 = tidak diabetes dan didiagnosis tidak diabetes = 106
