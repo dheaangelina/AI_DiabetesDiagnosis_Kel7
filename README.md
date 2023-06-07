@@ -25,7 +25,7 @@
 1 Target - Output berupa numerik <br />
   Outcome (Berupa 0 atau 1) = 0 adalah Tidak Diabetes dan 1 adalah Diabetes
   
-**Modelling**
+**Modelling** <br />
 *Logistic Regression* <br />
 Algoritma yang cocok digunakan untuk melakukan pemodelan antara variabel dependen biner (Outcome yang berupa 0 atau 1) dengan beberapa variabel independen (8 parameter) <br />
 Dengan algoritma tersebut dihasilkan: 
